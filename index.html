@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guitar Audio Dataset for AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    
+     <h1>Guitar Audio Dataset for AI</h1>
+    <p>Comprehensive guitar recordings dataset for audio analysis.</p>
+    <div class="button-group">
+      <a href="https://github.com/cyptrix12/Guitar-Recording-Classifier">View on GitHub</a>
+      <a href="https://pgedupl-my.sharepoint.com/:b:/g/personal/s193276_student_pg_edu_pl/ESJfjQjXCPlLuP6eUfIlKWwBUDFIiWnB0Cti9DwzNwh1Bw?e=rMbLhz">View Paper</a>
+      <a href="https://drive.google.com/file/d/1yAnUh0Txv7RzXawuUQVIIUR5VtuIA1Nv/view?usp=sharing">View Dataset</a>
+    </div>
+  </header>
+
+  <main class="container">
+   
+  
+    <section id="introduction">
+        <img src="images/logo_wave.jpg" alt="GADA Logo" class="logo" />
+      <h2>Introduction</h2>
+      
+      <div>
+        <p style="width: 85%;">
+            We propose Guitar Audio Dataset for AI, a novel open-source dataset curated to support research in guitar audio analysis, signal processing, and machine learning applications. 
+            The dataset stands out by featuring a wide range of electric, acoustic, and bass guitars.
+            To evaluate the utility of G.A.D.A. in machine learning contexts, we propose a testing framework incorporating established machine learning algorithms, achieving classification accuracies of up to 99%.
+           
+        </p>
+       
+      </div>
+    </section>
+
+
+    <section id="guitars">
+        <h2>Guitars of the dataset</h2>
+        <table border="1px" style="border-style: solid">
+          <thead>
+            <tr>
+                <td>Electric</td>
+                <td>Arirang SG</td>
+                <td><img src="images/arg_sg.png" class="guitar-photo"/></td>
+                <td>Vintage-style SG with dual humbuckers, offering warm mids and classic rock tones.</td>
+              </tr>
+              <tr>
+                <td>Electric</td>
+                <td>Epiphone SG (Model 1)</td>
+                <td><img src="images/epiSG.png" class="guitar-photo"/></td>
+                <td>Affordable take on the Gibson SG with twin humbuckers and punchy, aggressive tone.</td>
+              </tr>
+              <tr>
+                <td>Electric</td>
+                <td>Epiphone SG (Model 2)</td>
+                <td><img src="images/epiSG2.png" class="guitar-photo"/></td>
+                <td>Another piece of the same guitar as above.</td>
+              </tr>
+              <tr>
+                <td>Electric</td>
+                <td>Gretsch</td>
+                <td><img src="images/Gretsch.png" class="guitar-photo"/></td>
+                <td>Classic semi-hollow design known for its jangly clean tones and smooth jazz/blues sound.</td>
+              </tr>
+              <tr>
+                <td>Electric</td>
+                <td>Harley Benton Les Paul</td>
+                <td><img src="images/HBLP.png" class="guitar-photo"/></td>
+                <td>Solid-body LP-style guitar with thick sustain and dual humbuckers for rich, heavy tones.</td>
+              </tr>
+              <tr>
+                <td>Electric</td>
+                <td>Harley Benton TE-52 NA</td>
+                <td><img src="images/hbte52.png" class="guitar-photo"/></td>
+                <td>Telecaster-style guitar with classic single-coil brightness and vintage aesthetics.</td>
+              </tr>
+              <tr>
+                <td>Electric</td>
+                <td>Harley Benton Telecaster</td>
+                <td><img  class="guitar-photo"/></td>
+                <td>Budget-friendly Telecaster-style model with a sharp, twangy tone ideal for country and rock.</td>
+              </tr>
+              <tr>
+                <td>Electric</td>
+                <td>Harley Benton Stratocaster</td>
+                <td><img  class="guitar-photo"/></td>
+                <td>Strat-style guitar with three single-coils, offering crisp cleans and bluesy leads.</td>
+              </tr>
+              <tr>
+                <td>Acoustic</td>
+                <td>Vintage V300VSB</td>
+                <td><img src="images/vintage.jpg" class="guitar-photo"/></td>
+                <td>Compact folk-style acoustic with a warm, resonant tone and great playability.</td>
+              </tr>
+              <tr>
+                <td>Acoustic</td>
+                <td>T. Burton J-0 BS</td>
+                <td><img src="images/tburton.jpg" class="guitar-photo"/></td>
+                <td>Well-balanced jumbo-style acoustic offering rich lows and articulate highs.</td>
+              </tr>
+              <tr>
+                <td>Bass</td>
+                <td>Quintus SG Bass</td>
+                <td><img src="images/quintusBass.jpg" class="guitar-photo"/></td>
+                <td>Short-scale bass with vintage SG-style body, delivering warm and punchy tones.</td>
+              </tr>
+              <tr>
+                <td>Bass</td>
+                <td>Epiphone SG Bass</td>
+                <td><img src="images/epiSGBass.png" class="guitar-photo"/></td>
+                <td>Classic EB-style bass with deep, rounded tone and smooth neck for fast playability.</td>
+              </tr>
+              <tr>
+                <td>Bass</td>
+                <td>Epiphone Bass</td>
+                <td><img src="images/EpiBass.jpg" class="guitar-photo"/></td>
+                <td>Full-scale bass with versatile electronics and vintage aesthetics, suited for all genres.</td>
+              </tr>
+          </tbody>
+        </table>
+      </section>
+      
+
+
+    <section id="samples">
+      <h2>Recording samples</h2>
+      <p>We present a selection of samples within the G.A.D.A dataset:</p>
+      <h3>Electric guitars:</h3>
+      <table border="1px" style="border-style: solid">
+        <thead>
+          <tr>
+            <th></th>
+            <th>a-minor Settings1</th>
+            <th>a-minor Settings2</th>
+            <th>C-major Settings1</th>
+            <th>C-major Settings2</th>          
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Epiphone SG (1)      </td>
+            <td><audio controls src="rec_samples/EpiSG/EpiSG_Am_open_122_ID4_1.wav"></audio></td>
+            <td><audio controls src="rec_samples/EpiSG/EpiSG_Am_open_222_ID4_1.wav"></audio></td>
+            <td><audio controls src="rec_samples/EpiSG/EpiSG_C_open_122_ID4_1.wav"></audio></td>
+            <td><audio controls src="rec_samples/EpiSG/EpiSG_C_open_222_ID4_1.wav"></audio></td>
+         </tr>
+          <tr>
+            <td>Epiphone SG (2)</td>
+            <td><audio controls src="rec_samples/EpiSG2/EpiSG2_Am_open_022_ID4_5.wav"></audio></td>
+            <td><audio controls src="rec_samples/EpiSG2/EpiSG2_Am_open_122_ID4_1.wav"></audio></td>
+            <td><audio controls src="rec_samples/EpiSG2/EpiSG2_C_open_022_ID4_3.wav"></audio></td>
+            <td><audio controls src="rec_samples/EpiSG2/EpiSG2_C_open_122_ID4_5.wav"></audio></td>
+          </tr>
+          <tr>
+            <td>Harley Benton Les Paul</td>
+            <td><audio controls src="rec_samples/HBLP/HBLP_Am_open_022_ID1_1.wav"></audio></td>
+            <td><audio controls src="rec_samples/HBLP/HBLP_Am_open_122_ID1_2.wav"></audio></td>
+            <td><audio controls src="rec_samples/HBLP/HBLP_C_open_022_ID1_5.wav"></audio></td>
+            <td><audio controls src="rec_samples/HBLP/HBLP_C_open_122_ID1_5.wav"></audio></td>
+          </tr>
+          <tr>
+            <td>SHarley Benton TE 52</td>
+            <td><audio controls src="rec_samples/HBTE52/HBTE52_Am_open_022_ID1_1.wav"></audio></td>
+            <td><audio controls src="rec_samples/HBTE52/HBTE52_Am_open_122_ID1_4.wav"></audio></td>
+            <td><audio controls src="rec_samples/HBTE52/HBTE52_C_open_022_ID1_5.wav"></audio></td>
+            <td><audio controls src="rec_samples/HBTE52/HBTE52_C_open_122_ID1_10.wav"></audio></td>
+         </tr>
+          <tr>
+            <td>Arirang GS</td>
+            <td><audio controls src="rec_samples/ArgSG/ArgSG_Am_open_022_ID4_8.wav"></audio></td>
+            <td><audio controls src="rec_samples/ArgSG/ArgSG_Am_open_122_ID4_7.wav"></audio></td>
+            <td><audio controls src="rec_samples/ArgSG/ArgSG_C_open_022_ID4_3.wav"></audio></td>
+            <td><audio controls src="rec_samples/ArgSG/ArgSG_C_open_122_ID4_10.wav"></audio></td>
+          </tr>
+         
+        </tbody>
+      </table>
+
+      <h3>Bass guitars:</h3>
+      <table border="1px" style="border-style: solid">
+        <thead>
+          <tr>
+            <th></th>
+            <th>C note</th>
+            <th>D note</th>
+            <th>F note</th>
+            <th>G# note</th>          
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Epiphone Bass</td>
+            <td><audio controls src="rec_samples/EpiBass/EpiBass_C_open_2_ID4_7.wav"></audio></td>
+            <td><audio controls src="rec_samples/EpiBass/EpiBass_D_open_3_ID4_1.wav"></audio></td>
+            <td><audio controls src="rec_samples/EpiBass/EpiBass_F_open_1_ID4_1.wav"></audio></td>
+            <td><audio controls src="rec_samples/EpiBass/EpiBass_Gsh_open_1_ID4_1.wav"></audio></td>
+         </tr>
+          <tr>
+            <td>Quintuss Bass</td>
+            <td><audio controls src="rec_samples/QuintusBass/QuintusBass_C_open_2_ID4_1.wav"></audio></td>
+            <td><audio controls src="rec_samples/QuintusBass/QuintusBass_D_open_3_ID4_4.wav"></audio></td>
+            <td><audio controls src="rec_samples/QuintusBass/QuintusBass_F_open_1_ID4_7.wav"></audio></td>
+            <td><audio controls src="rec_samples/QuintusBass/QuintusBass_Gsh_open_4_ID4_4.wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Acoustic guitars:</h3>
+      <table border="1px" style="border-style: solid">
+        <thead>
+          <tr>
+            <th></th>
+            <th>a-minor </th>
+            <th>C-major </th>
+            <th>F-major </th>
+            <th>d-minor </th>          
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Vintage V300VSB</td>
+            <td><audio controls src="rec_samples/VintageV300VSB/VintageV300VSB_Am_open_1_ID1_3.wav"></audio></td>
+            <td><audio controls src="rec_samples/VintageV300VSB/VintageV300VSB_C_open_1_ID1_7.wav"></audio></td>
+            <td><audio controls src="rec_samples/VintageV300VSB/VintageV300VSB_F_open_1_ID4_3.wav"></audio></td>
+            <td><audio controls src="rec_samples/VintageV300VSB/VintageV300VSB_Dm_open_1_ID1_7.wav"></audio></td>
+         </tr>
+          <tr>
+            <td>T. Burton</td>
+            <td><audio controls src="rec_samples/TBJ0BS/TBJ0BS_Am_open_1_ID4_4.wav"></audio></td>
+            <td><audio controls src="rec_samples/TBJ0BS/TBJ0BS_C_open_1_ID4_3.wav"></audio></td>
+            <td><audio controls src="rec_samples/TBJ0BS/TBJ0BS_F_open_1_ID1_3.wav"></audio></td>
+            <td><audio controls src="rec_samples/TBJ0BS/TBJ0BS_Dm_open_1_ID4_4.wav"></audio></td>
+          </tr>         
+        </tbody>
+      </table>
+    </section>
+
+    <section id="gif">
+        
+        <h2>Visualization of guitar models</h2>
+        <div class="recording-photos">
+            <img src="images/pca_rotation.gif" style="width: 100%;"/> 
+          
+    </section>
+
+
+    <section id="behind-scenes">
+        <h2>Behind the scenes of recordings</h2>
+        <div class="recording-photos">
+            <img src="images/mic1.jpeg" /> 
+            <img src="images/mic2.jpeg"/> 
+            <img src="images/mic3.jpeg" /> 
+            <img src="images/bts1.jpeg" style="width: 66%;" /> 
+            <img src="images/bts2.jpeg" /> 
+        </div>
+    </section>
+
+    <section id="authors">
+      <h2>Authors and Affiliations</h2>
+      <ul>
+        <li><b>Monika Zarudzka</b><br/>Computer Science Student @ Gdańsk University of Technology <br/>s193276@student.pg.edu.pl</li>
+        <li><b>Cyprian Zasada</b><br/>Automation, Cybernetics and Robotics Student @ Gdańsk University of Technology<br/>s193222@student.pg.edu.pl</li>
+        <li><b>Piotr Krzyżanowski</b><br/>Electronics and Telecommunication Student @ Gdańsk University of Technology<br/>s193675@student.pg.edu.pl</li>
+        <li><b>Klaudiusz Muszyński</b><br/>Electronics and Telecommunication @ Gdańsk University of Technology<br/>s184705@student.pg.edu.pl</li>
+        <li><b>Maciej Trocha</b><br/>Computer Science Student @ Gdańsk University of Technology<br/>s180133@student.pg.edu.pl</li>
+        <li><b>Szymon Zaporowski</b><br/>Research Assistant @ Gdańsk University of Technology <br/>szymon.zaporowski@pg.edu.pl</li> 
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Gdańsk University of Technology 2025</a>.</p>
+  </footer>
+</body>
+</html>
